@@ -1,0 +1,99 @@
+/* CSS files add styling rules to your content */
+/* using embers color pallet from pinterest
+  purple : 41436a
+  cranberry : 984063
+  cherry: f64668
+  peachy orange : FE9677
+*/
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  margin-left: 73px;
+  background-color: #ffffff; /*lighter grey*/
+}
+
+h1 {
+  test-align: center;
+  padding: 15px;
+  font-style: italic;
+  font-family: "Six Caps", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #ca3c4a; /* retro berry */
+}
+
+.header {
+  background-color: #99beb7; /*blue grey*/
+  padding: 0px;
+  display: flex;
+}
+
+.sidebar {
+  height: 100%;
+  position: absolute;
+  content-align: center;
+  width: 75px;
+  z-index: 1;
+  border: none;
+  background-color: #99beb7; /*blue grey */
+}
+
+.welcome {
+  padding: 10px;
+}
+
+.button {
+  background-color: #ca3c4a; /*retro berry*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Six Caps", sans-serif;
+  display: inline-block;
+}
+
+.side-button {
+  background-color: #f2c665; /*retro yellow*/
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: "Six Caps", sans-serif;
+  color: black;
+  border: none;
+  padding: 15px 25px;
+  width: 100%;
+  display: inline-block;
+}
+
+.canv {
+  text-align: center;
+}
+
+#strk {
+  background-color: #f2c665; /*retro yellow*/
+  border: none;
+  content-align: center;
+  padding: 15px 25px;
+  width: 100%;
+  display: inline-block;
+}
+
+#can {
+  border: 2px solid black;
+  margin-left: -640px;
+  margin-top: -200px;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  padding: 0px;
+  position: absolute;
+}
+
+#s2 {
+  left: 1290px;
+  width: 150px;
+}

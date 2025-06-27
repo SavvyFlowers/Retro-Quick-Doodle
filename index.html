@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Retro Paint!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <div class="header">
+      <!-- clear and save buttons -->
+      <button class="button" onclick="erase()">
+        Clear
+      </button>
+    
+      <button class="button" onclick="save()">
+        Save
+      </button>
+      <!-- center of header -->
+      <h1 class="welcome"> Hi there! </h1>
+    </div>
+    
+    <div class="sidebar">
+      <!-- color selector -->
+      <input type="color" id="strk">
+      
+      <!-- fill canvas button -->
+      <button class="side-button" onclick="fill()">
+        Fill
+      </button>
+    </div>
+    
+    <div class="canv">
+          <!-- canvas -->
+      <canvas id="can"></canvas>
+      <img id="canvasimg" style="display: none">
+    </div>
+    
+
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
